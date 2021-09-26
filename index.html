@@ -62,7 +62,7 @@
             var data = JSON.parse(xmlHttp.responseText)
             document.getElementById("store").innerText = data.TotalSales[0].Name
             document.getElementById("bills").innerText = data.TotalSales[0].NoOfBills
-            document.getElementById("sales").innerText = data.TotalSales[0].TotalSales
+            document.getElementById("sales").innerText = data.TotalSales[0].TotalBills
             document.getElementById("pays").innerText = data.Payments[0].Payments
 
             // xmlHttp.responseText;
